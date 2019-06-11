@@ -1,0 +1,141 @@
+﻿@charset "utf-8";
+
+.icon { background: url(../chuangye/icon.png)no-repeat; display: block; }
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;}
+.container-tags h1 { font-size: 22px; margin: 0; text-align: center; margin-bottom: 15px }
+.tagslist { overflow: hidden }
+.tagslist ul { list-style-type: none; padding: 0; margin: 0 -2% 0 0 }
+.tagslist li { float: left; width: 23%; margin-right: 2%; margin-bottom: 2%; padding: 15px; border: 1px solid #eee; background-color: #fff; border-radius: 2px }
+.tagslist li .name { background-color: #eee; display: inline-block; padding: 5px 10px 4px; font-size: 12px; color: #666 }
+.tagslist li .name:hover { background-color: #444; color: #fff }
+.tagslist li:hover { border-color: #ccc }
+.tagslist li:hover .name { background-color: #444; color: #fff }
+.tagslist li small { margin-left: 10px; color: #bbb }
+.tagslist li p { margin: 10px 0 0; font-size: 12px; height: 17px; overflow: hidden; display: block; line-height: 1.5 }
+.tagslist li .tit { color: #999 }
+.tagslist li .tit:hover { color: #444 }
+/*map代码*/
+.page-template-pagesnavs-php .pageheader {
+    margin: 0;
+}
+.pageheader {
+    overflow: hidden;
+    background-color: #45b6f7;
+    padding: 25px 20px;
+    margin-bottom: 15px;
+    color: #fff;
+	 margin: 0;
+}
+
+.pageheader .note {
+    margin-top: 5px;
+}
+
+#navs {
+    color: #aaa;
+}
+#navs nav {
+    width: 140px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    height: 100%;
+    background-color: #45b6f7;
+}
+#navs nav ul {
+    width: 140px;
+}
+#navs .items {
+    margin-left: 160px;
+}
+#navs .items {
+    margin-left: 160px;
+}
+#navs .item {
+    overflow: hidden;
+    margin: 20px 0 30px;
+}
+#navs .item h2 {
+    width: 140px;
+    padding: 11px 15px;
+    margin: 0;
+    font-size: 18px;
+}
+#navs h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    padding: 10px;
+    background-color: #e60012;
+    margin: 0;
+	text-align:center;
+}
+#navs .item ul {
+    margin-right: -1%;
+}
+#navs .item li {
+    float: left;
+    width: 19%;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding: 15px;
+    font-size: 12px;
+    height: 89px;
+line-height: 1.42857143;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 15px solid #fff;
+}
+#navs .item li a {
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e60012;
+    border-bottom: 2px solid transparent;
+}
+#navs .item li {
+    float: left;
+    width: 19%;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding: 15px;
+    font-size: 12px;
+    height: 89px;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 15px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

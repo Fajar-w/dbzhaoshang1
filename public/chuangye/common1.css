@@ -1,0 +1,57 @@
+@charset "utf-8";
+body { background: #fff; }
+.layout { width: 990px; margin: 0 auto; }
+.layout-l { width: 674px; float: left; }
+.layout-r { width: 293px; float: right; }
+.icon { background: url(./icon.png) no-repeat; display: block; }
+.mt20 { margin-top: 20px; }
+.layout-info-l { width: 615px; float: left; }
+.layout-info-r { width: 303px; float: right; }
+.item-detail .ad-show { width: 400px; overflow: hidden; position: relative; }
+.syFocusThumb IMG { border-bottom-style: none; border-right-style: none; border-top-style: none; vertical-align: top; border-left-style: none }
+.sliderwrapper { height: 374px; margin-bottom: 10px; }
+.syFocusThumb { width: 400px; height: 410px; overflow: hidden }
+.syFocusThumb .pagination { text-align: left; width: 100%; height: 92px; color: #fff; clear: both; }
+.syFocusThumb .thumbWrap { position: absolute; width: 400px; overflow: hidden; bottom: 0px; left: 30px; _bottom: -4px; }
+.syFocusThumb .thumbWrap img { -MS-INTERPOLATION-MODE: bicubic }
+.syFocusThumb .holder { width: 4000px }
+.syFocusThumb .holder i { cursor: pointer; margin-right: 10px; float: left; }
+.syFocusThumb .holder i img { border: 1px solid #e1e1e1; }
+.syFocusThumb .prev { position: absolute; width: 20px; background: url("./slide_left_btn.jpg") no-repeat 0 0; height: 92px; bottom: 0px; cursor: pointer; left: 0 }
+.syFocusThumb .next { position: absolute; width: 20px; background: url("./slide_right_btn.jpg") no-repeat 0 0; height: 92px; bottom: 0px; cursor: pointer; right: 0 }
+.syFocusThumb .pagination i.selected img { border: 1px solid #e70000; }
+.syFocusThumb .contentdiv { height: 375px }
+.syFocusThumb .toc img { width: 90px; height: 92px; }
+#toQuick_mesg { display: block !important; }
+.detail-con { width: 550px; }
+.detail-con .title { font-size: 24px; color: #333; line-height: 1; margin-left: -12px; }
+.detail-con .detail-con-info { margin-top: 40px; }
+
+.detail-con .detail-con-info ul li { float: left; width: 159px; font-size: 14px; color: #666; line-height: 40px; }
+.detail-con .detail-con-info ul li span { width: 56px; margin-right: 14px; }
+.detail-con .detail-con-info ul li a { color: #247aee; margin-right: 14px; }
+.detail-con .detail-con-info ul.trade-from li { width: auto; }
+.fr1{ margin-top:30px;}
+.detail-con .impress { background: #f0f0f0; padding: 10px 0; margin-top: 30px; }
+
+.detail-con .impress ul li { width: 25%; float: left; display: block; text-align: center; font-size: 16px; line-height: 30px; color: #666; }
+.detail-con .impress ul li span { font-size: 18px; color: #e60012; font-weight: bold; }
+.detail-con .handle-btn { margin-top: 60px; }
+.detail-con .handle-btn a { font-size: 18px; width: 153px; height: 50px; line-height: 48px; text-align: center; border-radius: 4px; float: left; display: block; margin-right: 9px; text-decoration: none;}
+.detail-con .handle-btn a:last-child { margin-right: 0; }
+.detail-con .handle-btn a.syzi { color: #e60012; border: 1px solid #e60012; background: #fff; }
+.detail-con .handle-btn a.ljzx { color: #fff; background: #e60012; }
+.detail-con .handle-btn a.sqjm { color: #fff; background: #ff7900; }
+.jm-phone { font-size: 24px; color: #666; line-height: 30px; margin-top: 20px; }
+.jm-phone span { font-size: 30px; color: #e60012; font-weight: bold; margin-left: 23px; }
+.com-info { border-top: 1px solid #e5e5e5; padding-top: 6px; margin-top: 16px; }
+.com-info .title { font-size: 16px; color: #444; font-weight: bold; line-height: 38px; margin-left: 0; }
+.com-info .com-info-detail .img { width: 120px; height: 100px; }
+.com-info .com-info-detail .img img { width: 100%; height: 100%; }
+.com-info .com-info-detail .con { margin-left: 20px; }
+.com-info .com-info-detail .con .con-title { font-size: 14px; color: #444; font-weight: bold; line-height: 1; width: 200px; height: 14px; overflow: hidden; margin-bottom: 5px; }
+.com-info .com-info-detail .con div { font-size: 14px; line-height: 27px; color: #444; height: 27px; overflow: hidden; width: 200px; }
+.com-info .com-info-detail .con div span { width: 56px; margin-right: 10px; display: inline-block; }
+.phone-entry .bless { color: #e60012; font-size: 14px; line-height: 18px; text-align: center; }
+.phone-entry input { width: 122px; height: 28px; border: 1px solid #e5e5e5; display: block; font-size: 12px; padding: 0 13px; margin-top: 4px; }
+.phone-entry button { width: 122px; line-height: 28px; color: #fff; text-align: center; border-radius: 4px; background: #26bb17; margin-top: 3px; display: block; cursor: pointer; border: none; }
